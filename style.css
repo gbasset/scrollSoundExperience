@@ -1,0 +1,222 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100%;
+    font-family: sans-serif;
+    background-color: #f2ffff;
+}
+
+.accueil {
+    width: 100%;
+    height: 100vh;
+    background: url(ressources/sven-scheuermeier-VNseEaTt9w4-unsplash.jpg);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.front {
+    object-fit: contain;
+    width: 100%;
+    height: 80vh;
+    margin-top: 20vh!important;
+}
+
+@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
+    .accueil {
+        height: 79vh;
+    }
+    .front {
+        object-fit: contain;
+        width: 100%;
+        height: 59vh;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .accueil {
+        height: 72vh;
+        width: 107%;
+    }
+    .front {
+        object-fit: contain;
+        width: 100%;
+        height: 52vh;
+    }
+    .keys {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        flex: 1;
+        min-height: 100vh;
+        align-items: center;
+        justify-content: center;
+        font-size: 10px;
+        background: url('./ressources/pokjhghjhjklkjhghghjk.jpg') bottom center;
+        background-size: cover;
+        width: 107%;
+    }
+    .key {
+        border: .4rem solid #f1f1f1;
+        border-radius: .5rem;
+        margin: 0.2rem;
+        font-size: 0.5rem;
+        padding: 1rem .5rem;
+        transition: all .09s ease;
+        text-align: center;
+        color: white;
+        background: rgba(0, 0, 0, 0.4);
+        text-shadow: 0 0 .5rem #9bf1ff;
+        ;
+    }
+}
+
+.titleWebSite {
+    font-family: Teko;
+    background: rgba(112, 110, 110, 0.164);
+    width: 800px;
+    color: #ffffff;
+    font-size: 120px;
+    text-align: center;
+    position: absolute;
+    padding: 15px;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h2 {
+    text-align: center;
+}
+
+.contenuFirst {
+    width: 100%;
+    height: 105vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background: url('./ressources/cassettes2.png') bottom center;
+    background-size: cover;
+    margin: auto;
+    background-attachment: fixed;
+}
+
+.titleBegin {
+    padding: 40px;
+    color: #ffffff;
+    font-family: 'Dancing Script';
+    font-size: 2rem;
+    text-align: center;
+    z-index: 200;
+    border-radius: 8px;
+    background-color: #76767636;
+}
+
+.contenu {
+    width: 100%;
+    height: 105vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    /* max-width: 1200px; */
+    padding: 40px 0;
+    font-family: 'Dancing Script';
+    font-size: 26px;
+}
+
+p {
+    line-height: 30px;
+}
+
+.keyContainer {
+    min-height: 105vh;
+    background: url('./ressources/pokjhghjhjklkjhghghjk.jpg') bottom center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.keyContainerForet {
+    min-height: 105vh;
+    background: url('./ressources/sebastian-unrau-sp-p7uuT0tw-unsplash.jpg') bottom center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.keyContainerPluie {
+    min-height: 105vh;
+    background: url('./ressources/lightning-strikes-2258536.jpg') bottom center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.keyContainerSavane {
+    min-height: 105vh;
+    background: url('./ressources/damian-patkowski-T-LfvX-7IVg-unsplash.jpg') bottom center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.keys {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+    min-height: 100vh;
+}
+
+.key {
+    border: .4rem solid #f1f1f1;
+    border-radius: .5rem;
+    margin: 1rem;
+    font-size: 1.5rem;
+    padding: 1rem .5rem;
+    transition: all 5s ease-in-out;
+    width: 11.5rem;
+    text-align: center;
+    color: white;
+    background: rgba(0, 0, 0, 0.4);
+    text-shadow: 0 0 .5rem #9bf1ff;
+    ;
+}
+
+.playing {
+    transform: scale(1.1);
+    border-color: #dbfff5;
+    box-shadow: 0 0 1rem #92ffff;
+}
+
+kbd {
+    display: block;
+    font-size: 4rem;
+}
+
+.sound {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    width: 100%;
+    color: #40fff6;
+}
+
+.titleRelax {
+    position: relative;
+    height: 130px;
+    background: rgba(0, 0, 0, 0.164);
+    left: 50%;
+    font-family: Teko;
+    width: 800px;
+    color: #fffbfbea;
+    font-size: 120px;
+    text-align: center;
+    position: absolute;
+    padding: 15px;
+    text-align: center;
+    transform: translate(-50%, -50%);
+}
